@@ -1,0 +1,70 @@
+/* Contrôler la couleur du code inline */
+code {
+    color: #c7254e;
+    background-color: #f9f2f4 !important;
+}
+pre > code[class="r hljs remark-code"] {
+    background-color: #eaeaea !important;
+}
+pre > code[class="remark-code"] > div[class="remark-code-line"] {
+    background-color: #f6f6f6 !important;
+}
+.auteurs p {
+  margin-top: 10px;
+}
+.remark-code {
+  font-size: 16px;
+}
+ol > li {
+  margin-top: 1em;
+}
+li li {
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.remark-slide-content {
+  padding: 1em 4em 1em 2em;
+}
+
+.title-slide {
+  background-image: url('resources/logo-utilitr.png');
+}
+
+.indent{
+  padding: 10px;
+  margin-right: 1cm;
+}
+.sauterligne{
+  margin-top: 1em;
+}
+.sauterligne2{
+  margin-top: 2em;
+}
+.sauterligne3{
+  margin-top: 3em;
+}
+.laisserligne{
+  margin-bottom: 1em;
+}
+.big{
+  font-size: 150%;
+}
+.small90{
+  font-size: 90%;
+}
+.small80{
+  font-size: 80%;
+}
+.small70{
+  font-size: 70%;
+}
+.small60{
+  font-size: 60%;
+}
+
+
+
