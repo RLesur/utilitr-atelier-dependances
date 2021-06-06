@@ -1,9 +1,8 @@
 ---
-title : "Titre"
-subtitle : "Sous-titre"
-author : "Daffy Duck et Bugs Bunny"
+title : "Utiliser des paquets, choisir ses paquets, gérer ses dépendances"
+author : "Romain Lesur"
 institute : "Insee"
-date : "`r format(Sys.time(), '%d %B %Y')`"
+date : "7 juin 2021"
 output:
   utilitr::utilitr_presentation:
     new_session: yes
@@ -19,19 +18,25 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-.sauterligne3[
-La boîte `.sauterligne3[]` sert à sauter trois lignes avant le contenu de la boîte. Saurez-vous deviner à quoi servent les boîtes `.sauterligne[]` `.sauterligne2[]`?
-]
+R tout seul ?  
+
+--
+
+Il sait déjà faire beaucoup de choses
+
+--
+
+Mais il peut faire bien plus grâce aux paquets (_packages_)
 
 --
 .sauterligne2[
   Plan de la présentation :
 ]
 
-- Partie 1: introduction;
-- Partie 2: entrée;
-- Partie 3: plat de résistance;
-- Partie 4: dessert.
+- Partie 1: installer des paquets
+- Partie 2: pourquoi utiliser des paquets et comment les choisir ?
+- Partie 3: gérer ses dépendances avec `renv` 
+- Partie 4: gérer ses dépendances avec un fichier `DESCRIPTION`
 
 
 ---
